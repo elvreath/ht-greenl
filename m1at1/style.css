@@ -1,0 +1,131 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    
+}
+
+body{
+    background-image: url("/images/background.jpg");
+    background-color: rgb(65, 54, 40);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    display:block;
+    max-width:100%;
+    height:auto;    
+}
+
+h1, h2{
+    padding-bottom: 1rem;
+}
+        
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header img{
+    height: 2rem;
+    margin-right: auto;
+}
+
+header h3{
+    padding-left: 3rem;
+}
+
+.box{
+    padding: 1.5rem;
+}
+
+.box img{
+    float: right;
+    border-radius: 2rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.box p{
+    padding-top: 1rem;
+}
+
+
+.testimonial{
+    margin: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(234, 253, 247);
+    border: 2px solid rgb(178, 211, 178);
+    border-left: 10px solid rgb(178, 211, 178);
+}
+
+.testimonial img{
+    padding: 0.5rem;
+    float: left;
+    padding-right: 1rem;
+}
+
+.testimonial p{
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+
+
+.container{
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    max-width: 50vw;
+    margin: auto;
+    padding-bottom: 10rem;
+    
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 1rem;
+    
+}
+
+footer{
+    background-color: rgb(226, 90, 40);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+button{
+    background-color: rgb(228, 228, 228);
+    border: 2px solid rgb(177, 177, 177);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    margin: auto;
+    border-radius: 2rem;
+    
+}
+
+form{
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
